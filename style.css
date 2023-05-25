@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+  }
+  input{
+    font-family: 'Libre Baskerville', serif;
+    border-radius: 7px;
+    text-align: center;
+    
+  }
+  body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(109.6deg, rgb(148, 233, 194) 11.2%, rgb(224, 235, 186) 91.1%);
+  }
+  .full {
+    padding: 50px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 650px;
+    background-color: rgba(0, 0, 0, 0.385);
+    padding: 28px;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+  }
+  .title{
+    font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 6px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  border-bottom: solid 1px #ff5522;
+  font-family: 'Libre Baskerville', serif;
+margin-top: 0;
+  }
+.userinfo {
+    margin: 5px;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 20px;
+    border-radius: 6px;
+    color: black;
+    display: flex;
+    padding: 10px;
+    text-align: left !important;
+  }
+.bagCo {
+    background-color:aliceblue;
+    padding: 10px;
+      transition: transform 0.4s ease;
+  }
+.bagCo:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(161, 212, 251, 0.75);
+  }
+  
+.row {
+    margin-right: 9.8px !important;
+  }
+.col-img {
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+  }
+  
+.col-img img {
+    width: 30%;
+  }
+  
+  
+  
